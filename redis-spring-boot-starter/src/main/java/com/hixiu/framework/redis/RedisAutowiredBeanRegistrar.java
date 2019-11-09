@@ -91,7 +91,7 @@ public class RedisAutowiredBeanRegistrar extends AbstractAutowiredBeanRegistrar<
             return;
         }
         if (properties.isEnableExportJmx()) {
-            String objectName = "com.yupaopao.framework:type=JedisConnectionFactory,id=" + this.autowiredBean.getNamespace();
+            String objectName = "com.hixiu.framework:type=JedisConnectionFactory,id=" + this.autowiredBean.getNamespace();
             logger.info("准备将连接池信息暴露到JMX:" + objectName);
             try {
                 InterfaceBasedMBeanInfoAssembler assembler = new InterfaceBasedMBeanInfoAssembler();
