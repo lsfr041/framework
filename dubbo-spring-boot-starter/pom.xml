@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.hixiu.framework</groupId>
         <artifactId>framework</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
     <groupId>com.hixiu.framework</groupId>
     <artifactId>dubbo-spring-boot-starter</artifactId>
