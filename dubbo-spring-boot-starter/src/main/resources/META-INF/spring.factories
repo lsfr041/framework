@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.hixiu.framework.dubbo.DubboSmoothLifecycleProcessor
+org.springframework.context.ApplicationContextInitializer=com.hixiu.framework.dubbo.ApolloConfigLoadApplicationContextInitializer
