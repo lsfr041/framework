@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.hixiu.framework</groupId>
         <artifactId>framework-bom</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </parent>
 
     <groupId>com.hixiu.framework</groupId>
